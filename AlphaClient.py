@@ -56,6 +56,7 @@ while Running:
         if Running == False:
             break
         s = Session.connection({"ip" : Server, "port" : 8080, "option1" : AF_INET, "option2" : SOCK_STREAM})
+        # You can change this options. for an example set "port" value for 11443 or other random port number
         while True:
             try:
                 data = Session.receive(s)

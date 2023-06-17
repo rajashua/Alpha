@@ -2,14 +2,14 @@
 Provide by CSP-DevHolic
 
 ## Introducec and Excuse
-Alpha Project is created to manage a lot of client for control and manage by remote Windows CMD (shell)
+Alpha Project is created to manage a lot of client for control and manage by remote Windows CMD (shell)\n
 This is the class. (I didn't know how to use class and object  well. this is old version.)
 
-I think the requirement doesn't needed because I made it with socket and bsae64 for communication between server and client.
-So there's no needed to install something else. Just make sure server and client both are connected to Wi-Fi.
-
+I think the requirement doesn't needed because I made it with socket and bsae64 for communication between server and client.\n
+So there's no needed to install something else. Just make sure server and client both are connected to Wi-Fi.\n
+\n
 Maybe I will update this module.
-
+\n
 ### Main Alpha Module
 ```Python
 SessionStorage = {}
@@ -62,7 +62,7 @@ class Session:
 ```
 
 ### Usage of class "Session" (Handler class)
-Alpha Module was class "Session" and this is code of Handler
+Alpha Module was class "Session" and this is code of Handler\n
 ```Python
 
 class Handler:

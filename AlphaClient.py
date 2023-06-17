@@ -110,6 +110,7 @@ while Running:
                         token_info = ctypes.c_uint()
                         token_info_size = ctypes.c_ulong()
                         GetTokenInformation(token_handle, TokenElevationType, ctypes.byref(token_info), 4, ctypes.byref(token_info_size))
+                        # I HATE MY SELF CAUSE I AM DUMBHEAD USE "ctypes.shell32.IsUserAnAdmin()" UH
                         if token_info.value == 2:
                             Session.send(s, f"[!] Security Level : Administrator [{token_info.value}]".encode())
                         else:

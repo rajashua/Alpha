@@ -51,6 +51,8 @@ while True:
     except:
         pass
 
+# This is for recv server address by udp server. DELETE IT IF YOU DON'T WANT TO MAKE THIS DETECTED BY FIREWALL
+    
 while Running:
     try:
         if Running == False:

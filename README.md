@@ -1,5 +1,5 @@
 # ALPHA PROJECT
-Provide by CSP-DevHolic
+Provided by DevHolic
 
 ## Introducec and Excuse
 Alpha Project is created to manage a lot of client for control and manage by remote Windows CMD (shell)<br>
